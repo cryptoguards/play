@@ -5,7 +5,7 @@ button:focus {
 
 body {
     padding-top: 66px;
-    background-image: url('/play/gun-sil.png'), linear-gradient(0deg, #1C6570 0%, #0B4978 100%);
+    background-image: url('https://cryptoguards.github.io/play/-/gun-sil.png'), linear-gradient(0deg, #1C6570 0%, #0B4978 100%);
     background-attachment: fixed;
     padding-bottom: 50px;
     font-family: 'Lexend', sans-serif;
@@ -746,7 +746,7 @@ p {
 }
 
 .navbar-toggler-icon {
-    background-image: url("/header/menu.png") !important;
+    background-image: url("https://cryptoguards.github.io/play/-/header/menu.png") !important;
 }
 
 .navbar-nav .nav-link {
