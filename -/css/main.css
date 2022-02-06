@@ -1,0 +1,130 @@
+.main {
+    background: url("../img/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+html{
+    background: url("../img/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+/*ÐœÐžÐ”ÐÐ›Ð¬ÐÐžÐ• ÐžÐšÐÐž*/
+#bg_popup{
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;}
+
+#popup {
+    background:#fff;
+    width: 350px;
+    margin: 25% auto;
+    padding: 5px 20px;
+    position: relative;}
+
+.close{
+    display:block;
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:20px;
+    height:20px;
+    color:#555;
+    background:#1BA600;
+    cursor:pointer;}
+.wrapperSignin{
+
+    background-color:black;
+    padding:15px;
+}
+.box-modal{
+    width:100%;
+}
+.connectWallet{
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+}
+.signin{
+    border:0.3px solid #ff933b;
+}
+.signin span{
+    color:rgb(255, 255, 255);
+}
+.connect{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(44, 47, 54);
+    padding: 20px;
+    margin: 25px;
+}
+.connect-p {
+    padding: 15px;
+}
+.connect-p a{
+    text-decoration: none;
+}
+.con-w{
+
+    border:1px solid gray;
+   border-radius: 10px;
+}
+.connect-p{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    cursor:pointer;
+
+}
+.con-w:hover{
+    border:2px solid #66e373;
+}
+.toinfo{
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+}
+.meta img{
+    width:20px;
+}
+.btn_w a{
+
+}
+.btn_bs{
+    margin-top:5px;
+    display: flex;
+    justify-content: center;
+}
+.btn_bss{
+    margin-top:5px;
+    display: flex;
+    justify-content: center;
+}
+.btn_bss a{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(64, 68, 79);
+    border-radius: 13px;
+    text-decoration: none;
+}
+.btn_bs a{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(64, 68, 79);
+    border-radius: 13px;
+    text-decoration: none;
+}
